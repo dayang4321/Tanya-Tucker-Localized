@@ -1,0 +1,86 @@
+header{
+    height: 100vh;
+}
+
+.home-container{
+    color: white!important;
+    height: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
+/*Logo*/
+
+#brand{
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/*Nav Items*/
+.navbar-nav .nav-item {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link.active{
+background-color: none!important;
+border-bottom: 1px solid #fb3;
+}
+
+.top-nav-collapse {
+    background-color: #07031A; }
+
+.contact-button{
+    font-weight: bold;
+    font-size: 18px;
+    color: #07031A;
+}
+
+/* Hero */
+
+.hero-text{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+
+.hero-button{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Small Screens */
+@media (max-width: 576px) {
+    .hero-text{
+        font-size: 40px;
+    }
+   
+ }
+
+/* Medium Screens */
+@media (max-width:768px){
+    .navbar  {
+        background-color: #07031A; }
+
+    .navbar .nav-item .nav-link:active,
+    .navbar .nav-item .nav-link.active{
+        background-color: none!important;
+        border-bottom: none;
+        border-left: 1px solid #fb3;
+    }
+
+    header{
+
+    height: 100%; 
+
+    }
+
+}
+
+

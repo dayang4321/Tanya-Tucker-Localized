@@ -1,0 +1,43 @@
+/* Smooth Scroll Behaviour */
+html{
+    scroll-behavior: smooth!important;
+}
+
+
+body {  
+  background-color:white!important;
+  font-family: 'Poppins', sans-serif!important;
+  color: #07031A!important;
+  position: relative;
+
+}
+
+/* Links-global */
+a{    
+    text-decoration: none!important;
+    color : white;
+} 
+
+/* Section Titles Fonts */
+.section-title{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+/* Image Overlay */
+.rgba-shade-strong, 
+.rgba-shade-strong:after{
+    background: rgba(7, 3, 26, 0.75);
+}
+
+/* Content Hidden onLoad */
+.loadable {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    
+    .section-title{
+        font-size: 24px;
+    }
+ }

@@ -1,0 +1,33 @@
+
+/* Portfolio Photo Labe */
+.portfolio-label{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* About Me Text */
+.about-me-article {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Call to Action Styles */
+.CTA-text{
+    font-size: 24px;
+}
+.CTA-button {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media (max-width:768px){
+    .about-me-article {
+        font-size: 16px;
+    }
+    .CTA-text{
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,69 @@
+
+/* Footer Styles */
+footer {
+    background: #07031A;
+    color: white;
+}
+
+.footer-title{
+    font-size: 48px;
+}
+
+/* Subscribe Form Styles */
+.footer input[type=text], .footer input[type=password], .footer input[type=email] {
+    border-bottom: 1px solid #fff; }
+  
+/* Subscribe Form (Focused) */
+.footer .md-form input[type=text]:focus:not([readonly]), .footer .md-form input[type=password]:focus:not([readonly]), .footer .md-form input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #fb3 !important;
+    -webkit-box-shadow: 0 1px 0 0 #fb3 !important;
+    box-shadow: 0 1px 0 0 #fb3 !important; }
+  
+/* Subscribe Form Label Style */
+.footer .md-form label {
+      font-size: 20px;
+    color: #fff; }
+
+.footer .md-form label.active {
+      color: #fb3 !important; }
+  
+
+/* Remove chrome autofil background color */
+@-webkit-keyframes autofill {
+      to {
+        color: #fff;
+        background: transparent;  
+  }
+}
+
+input:-webkit-autofill {
+      -webkit-animation-name: autofill;
+      -webkit-animation-fill-mode: both;
+  }
+.md-form>input[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label, 
+.md-form  >input[type=date]:not(.browser-default)+label, 
+.md-form  >input[type=time]:not(.browser-default)+label {
+      transform: translateY(-25px);
+      transform-origin: 0 0;
+        font-size: .8rem;
+    }
+
+/* Footer Links*/
+.footer p a{
+    font-size: 18px
+}
+
+/* Button */
+.btn-dark{
+    background:#07031A!important;
+}
+
+@media (max-width:768px){
+    .footer-title{
+        font-size: 36px;
+    }
+    .footer .md-form label {
+        font-size: 18px;
+      color: #fff; }
+    
+}
